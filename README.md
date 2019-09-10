@@ -1,6 +1,6 @@
-# IDD-Fa19-Lab1: Blink!
+# IDD-Fa19-Lab1: Light It Up! Blink!
 
-**A lab report by John Q. Student**
+**A lab report by Vini Tripathii**
 
 **Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2019. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
 
@@ -18,6 +18,8 @@ We've copied the questions from the lab here. Answer them below!
 **a. What color stripes are on a 100 Ohm resistor?**
  
 **b. What do you have to do to light your LED?**
+In order to light the LED I had to press the switch. While the switch was pressed, the LED was on. When the switch was not pressed, the circuit to the LED was broken and the LED turned off.
+[video of LED turning on and off 
 
 
 ## Part C. Blink a LED using Arduino
