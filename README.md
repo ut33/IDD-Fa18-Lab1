@@ -4,7 +4,8 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+https://github.com/ut33/IDD-Fa18-Lab1/blob/master/IMG-1149.JPG (LED ON)
+https://github.com/ut33/IDD-Fa18-Lab1/blob/master/IMG-1150.JPG
 
 
 ## Part B. Manually Blink a LED
