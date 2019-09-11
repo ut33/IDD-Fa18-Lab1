@@ -52,11 +52,12 @@ In my iteration of the blink code, I change the rate of blinking of the LED. The
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-
+No, before the potentiometer is completely turned, the LED already is off. This is because the threshold of voltage required for the LED to turn on is higher than the lowest value from the potentiometer. Thus the LED turns off before the potentiometer completely turns.
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+There are three variables of interest to control the fade code. Most important is to make sure the pin number aligns with LED placement on the board. Then the intial value for 'brightness' and 'fadeAmount' affect the rate of fading.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
@@ -64,6 +65,7 @@ In my iteration of the blink code, I change the rate of blinking of the LED. The
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+Here is a circuit diagram of a matrix keypad. Source: 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
