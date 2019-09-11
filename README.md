@@ -89,7 +89,8 @@ The keypad does not require external power. In essence, it is a soft flat matrix
 Information is not stored, but the pressing of different keys can be sensed in real-time. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
-The keypad was connected to the arduino metro mini. The circuit diagram can be seen in following photo. 
+The keypad was connected to the arduino metro mini. The circuit diagram can be seen in following photo.
+https://github.com/ut33/IDD-Fa18-Lab1/blob/master/IMG-1191.JPG
 
 ### 3. Build your light!
 
