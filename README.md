@@ -67,6 +67,8 @@ analogWrite() is the analog equivalent of the digitalWrite() method. Whereas dig
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 Here is a circuit diagram of a matrix membrane keypad. Sources: http://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/ and https://www.14core.com/using-membrane-keypadkeyboard-on-arduino/
+http://www.circuitbasics.com/wp-content/uploads/2017/05/Arduino-Keypad-Tutorial-4X4-Keypad-Schematic.png
+
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 There is no computation per se occuring in the keypad.  
