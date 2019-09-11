@@ -22,10 +22,18 @@ In order to light the LED I had to press the switch. While the switch was presse
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+The following lines correlate to the LED blinking. 
+
+ digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+ delay(1000);                       
+ digitalWrite(LED_BUILTIN, HIGH);   // turn the LED off by making the voltage LOW
+ delay(1000);                       
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+To change the rate of blinking, change the delay amount within the void loop section. The unit is miliseconds. For example, in the above code, the LED stays on for a second, then turn off for a second, then on again, and so forth. If the delay was reduced, the LED would blink much faster.  
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+To protect the circuit elements it was crucial to add a resistor. The resistor used in this lab was the 220 Ohm.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
