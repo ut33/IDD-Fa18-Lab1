@@ -60,6 +60,7 @@ No, before the potentiometer is completely turned, the LED already is off. This 
 There are three variables of interest to control the fade code. Most important is to make sure the pin number aligns with LED placement on the board. Then the intial value for 'brightness' and 'fadeAmount' affect the rate of fading.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+analogWrite() is the analog equivalent of the digitalWrite() method. Whereas digitalWrite has only two possible types of outputs (HIGH and LOW), analogWrite() can give a range of different possible outputs.
 
 
 ## Part F. FRANKENLIGHT!!!
