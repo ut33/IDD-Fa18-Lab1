@@ -36,9 +36,11 @@ To change the rate of blinking, change the delay amount within the void loop sec
 To protect the circuit elements it was crucial to add a resistor. The resistor used in this lab was the 220 Ohm.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+When the delay is 20 miliseconds or less, it just appears to be on. To test whether the LED was actually blinking or not I included a print line to the serial monitor: Serial.print("on"). Likewise, when the LED was set to low, it was supposed to print Serial.print("off"). As shown in the video, the LED appears on but is actually blinking. 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+In my iteration of the blink code, I change the rate of blinking of the LED. The delay starts at 5 miliseconds, and doubles each iteration of the loop until it is more than or equal to 2000 miliseconds. 
 
 ### 2. Blink your LED
 
