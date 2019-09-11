@@ -15,8 +15,7 @@ The color stripes on a 100 Ohm resistor is Brown (1), Black(0), Brown(1), Gold. 
  
 **b. What do you have to do to light your LED?**
 In order to light the LED I had to press the switch. While the switch was pressed, the LED was on. When the switch was not pressed, the circuit to the LED was broken (switch button not pressed => open switch =>infinite resistance) and the LED turned off.
-[video of LED turning on and off ]
-
+https://www.youtube.com/watch?v=uEe2CwbTuH0
 
 ## Part C. Blink a LED using Arduino
 
@@ -28,13 +27,15 @@ The following lines correlate to the LED blinking.
  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
  delay(1000);                       
  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED off by making the voltage LOW
- delay(1000);                       
+ delay(1000);    
+ https://www.youtube.com/watch?v=YMo-yQ4u4FM
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 To change the rate of blinking, change the delay amount within the void loop section. The unit is miliseconds. For example, in the above code, the LED stays on for a second, then turn off for a second, then on again, and so forth. If the delay was reduced, the LED would blink much faster.  
 
 **c. What circuit element would you want to add to protect the board and external LED?**
 To protect the circuit elements it was crucial to add a resistor. The resistor used in this lab was the 220 Ohm.
+https://www.youtube.com/watch?v=NCy-g9eBrSw
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 When the delay is 20 miliseconds or less, it just appears to be on. To test whether the LED was actually blinking or not I included a print line to the serial monitor: Serial.print("on"). Likewise, when the LED was set to low, it was supposed to print Serial.print("off"). As shown in the video, the LED appears on but is actually blinking. 
@@ -47,18 +48,21 @@ In my iteration of the blink code, I change the rate of blinking of the LED. The
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+https://www.youtube.com/watch?v=jPymoCGKBSc
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 No, before the potentiometer is completely turned, the LED already is off. This is because the threshold of voltage required for the LED to turn on is higher than the lowest value from the potentiometer. Thus the LED turns off before the potentiometer completely turns.
-
+https://www.youtube.com/watch?v=vGilHgE4GAI
+https://www.youtube.com/watch?v=H-sZqCj8iE4
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 There are three variables of interest to control the fade code. Most important is to make sure the pin number aligns with LED placement on the board. Then the intial value for 'brightness' and 'fadeAmount' affect the rate of fading.
+
+https://www.youtube.com/watch?v=m7nXKec2ko4
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 analogWrite() is the analog equivalent of the digitalWrite() method. Whereas digitalWrite has only two possible types of outputs (HIGH and LOW), analogWrite() can give a range of different possible outputs.
@@ -94,6 +98,6 @@ The keypad was connected to the arduino metro mini. The circuit diagram can be s
 https://github.com/ut33/IDD-Fa18-Lab1/blob/master/IMG-1191.JPG
 
 ### 3. Build your light!
-
-**Make a video showing off your Frankenlight.**
+When 1 is pressed the LED turns on. When 2 is pressed the LED turns off. When 4 is pressed the LED blinks slowly. When 5 is pressed the LED blinks fast. 
+https://www.youtube.com/watch?v=7irzLs5omKI
 
