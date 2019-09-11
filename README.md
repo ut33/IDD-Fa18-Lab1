@@ -10,10 +10,11 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+The color stripes on a 100 Ohm resistor is Brown (1), Black(0), Brown(1), Gold. This correlates to the digits 10 with a multiplier of 10 -- 100. The gold indicates the tolerance (+-5%). The color stripes on a 220 Ohm resistor (as used in the lab) is Red(2), Red(2), Brown(1), Gold. Likewise, this correlates to 22 * 10 with a tolerance of +-5%.
  
 **b. What do you have to do to light your LED?**
-In order to light the LED I had to press the switch. While the switch was pressed, the LED was on. When the switch was not pressed, the circuit to the LED was broken and the LED turned off.
-[video of LED turning on and off 
+In order to light the LED I had to press the switch. While the switch was pressed, the LED was on. When the switch was not pressed, the circuit to the LED was broken (switch button not pressed => open switch =>infinite resistance) and the LED turned off.
+[video of LED turning on and off ]
 
 
 ## Part C. Blink a LED using Arduino
